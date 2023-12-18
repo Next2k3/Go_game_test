@@ -1,4 +1,4 @@
-package com.grawgo.gra_w_go.board;
+package org.go_game.board;
 
 import java.util.ArrayList;
 import java.util.List;

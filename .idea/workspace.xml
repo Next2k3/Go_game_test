@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1e666a8-f42a-453c-8fa0-10f8afa0f66d" name="Changes" comment="test" />
+    <list default="true" id="e1e666a8-f42a-453c-8fa0-10f8afa0f66d" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/go_game/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/go_game/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/go_game/board/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/go_game/board/Stone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/go_game/board/StoneGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/go_game/board/StoneGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/go_game/board/StoneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/go_game/board/StoneType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +39,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702936624464</updated>
-      <workItem from="1702936625697" duration="490000" />
+      <workItem from="1702936625697" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1702937108811</created>
@@ -74,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702937108811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1702937151942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702937151942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
