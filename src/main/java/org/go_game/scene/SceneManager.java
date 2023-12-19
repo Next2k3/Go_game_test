@@ -21,7 +21,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-public class SceneManager {
+public class SceneManager { // Bartek
     private Stage primaryStage;
     private Scene menuScene;
     private Scene onlineGameScene;
