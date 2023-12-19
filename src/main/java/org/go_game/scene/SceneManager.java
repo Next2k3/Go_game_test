@@ -225,6 +225,7 @@ public class SceneManager {
         container.setLayoutY(50);
 
         layout.setCenter(root);
+        layout.setCenter(container);
         layout.setRight(container);
         onlineGameScene = new Scene(layout);
     }
