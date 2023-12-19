@@ -1,7 +1,5 @@
 package org.go_game;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
 import org.go_game.board.Board;
 import org.go_game.board.StoneType;
 
@@ -9,9 +7,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
-public class Client extends Application implements Runnable{
+public class Client implements Runnable{
     public static final int PLAYER1 = 1;
     public static final int PLAYER2 = 2;
     public static final int PLAYER1_WON = 1;
@@ -28,7 +25,7 @@ public class Client extends Application implements Runnable{
     private boolean continueToPlay = true;
     private boolean waiting = true;
     public static void main(String[] args){
-        launch(args);
+
     }
     private void connectToServer(){
         try{
@@ -117,10 +114,5 @@ public class Client extends Application implements Runnable{
         int row = fromServer.readInt();
         int column = fromServer.readInt();
         board.addStone(row,column,otherStoneType);
-    }
-
-    @Override
-    public void start(Stage stage) throws Exception {
-
     }
 }
